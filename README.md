@@ -1,6 +1,6 @@
 # 🚀 RTX 5090 Configuration Guide for Superpoint Transformer (SPT)
 
-Welcome to the definitive guide for configuring and running the **Superpoint Transformer (SPT)** on bleeding-edge NVIDIA hardware, specifically the **RTX 5090 (Blackwell architecture, sm_120)**.
+Welcome to the definitive guide for configuring and running the **[Superpoint Transformer (SPT)](https://github.com/drprojects/superpoint_transformer)** on bleeding-edge NVIDIA hardware, specifically the **RTX 5090 (Blackwell architecture, sm_120)**.
 
 As of early 2026, standard pre-compiled binaries for PyTorch and Torch Geometric (PyG) do not natively include the `sm_120` compute kernels. Furthermore, recent updates to NumPy (v2.x) and PyG (v2.6+) introduce breaking API changes and metaclass conflicts with older C++ point cloud extensions.
 
@@ -166,6 +166,6 @@ If evaluation starts without CUDA kernel or metaclass errors, your RTX 5090 setu
 
 ## 🤝 Acknowledgments
 
-* Original authors of the Superpoint Transformer
+* Original authors of the [Superpoint Transformer](https://github.com/drprojects/superpoint_transformer)
 * PyTorch and PyG communities for bleeding-edge hardware support
 
